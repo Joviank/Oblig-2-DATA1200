@@ -1,0 +1,336 @@
+@media screen and (max-width: 720px) {
+    header{
+        max-width: 100%;
+        margin-bottom: 25%;
+    }
+
+    h1{
+        margin-top: 10%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav{
+     display:none;
+    }
+
+    .Sequel-left{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .Sequel-left img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        margin-top: -40px;
+        margin-bottom: 10px ;
+    }
+
+    .Sequel-left-text{
+        max-width: 100%;
+        top: inherit;
+        bottom: 0;
+        transform:initial;
+        text-align: center;
+        padding: 15px;
+        font-size: 78%;
+    }
+
+    .Sequel-right{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .Sequel-right img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        margin-top: -40px;
+        margin-bottom: 10px ;
+    }
+    
+    .Sequel-right-text{
+        max-width: 100%;
+        top: inherit;
+        bottom: 0;
+        transform:initial;
+        text-align: center;
+        padding: 15px;
+        font-size: 78%;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1024px) { 
+    header{
+        height: 140px;
+    } 
+    
+    h1{
+        font-size: 48px;
+        margin-top: 30px;
+    }
+    
+    .nav{
+        display:none;
+       }
+     
+    .Sequel-left{
+        max-width: 100%;
+    }
+    .Sequel-left img{
+        max-width: 50%;
+        margin-top: -80px;
+            position: relative;
+            float: left;
+            padding-left:50px;
+    padding-right: 30px;
+    }
+
+    .Sequel-left-text{
+        padding: 40px;
+    } 
+
+    .Sequel-right img{
+        max-width: 50%;
+        margin-top: -80px;
+        float: right;
+        padding-right:50px;
+        padding-left: 30px;
+    }
+
+    .Sequel-right-text{
+        padding: 40px;
+    }
+    .nav{
+        padding-bottom: 35%;
+    }
+}
+
+@media screen and (min-width:1025px) { 
+    main{
+        padding-top: 80px;
+        bottom:0;
+     }
+     
+    
+    .Sequel-left img{
+        max-width: 50%;
+        margin-top: -150px;
+            position: relative;
+            float: left;
+            padding-left:50px;
+    padding-right: 30px;
+    }
+
+    .Sequel-left-text{
+        padding-left: 50px;
+    }
+    
+    header{
+        height: 150px;
+    }
+
+    h1{
+        margin-top: 30px;
+    }
+
+    .Sequel-right img{
+        max-width: 50%;
+        margin-top: -150px;
+        float: right;
+        padding-right:50px;
+        padding-left: 30px;
+    }
+
+    .Sequel-right-text{
+        padding-left: 50px;
+    }
+    .nav{
+        padding-bottom: 35%;
+    }
+    .nav ul li{
+        margin: 20px;
+        padding: 10px 20px;
+}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+p, a{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+a{
+    text-transform: uppercase;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    padding-bottom: 0px;
+}
+
+.margin {
+    min-height: 10px;
+  }
+
+header{
+    background-color: rgb(27, 27, 27);
+}
+
+h1{
+    text-align: center;
+}
+
+.nav{
+    width:max-content;
+    float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav ul li{
+        float:left;
+        text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(248, 226, 170);
+}
+.nav ul li:hover{
+    background-color:white;
+	color: black
+}
+.nav ul li a:hover{
+    color: #F7BB97;
+    transition: 1s;
+}
+#Oslo{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Stasjon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+#Irosin-lake{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Lake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+#Berlin{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Berlin2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.Sequel-left img{
+    position: relative;
+}
+
+.Sequel-left{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    transform: translateY(-10.5%);
+}
+
+.Sequel-left-text{
+    padding-top: 6%;
+}
+
+.Sequel-left-text a{
+    text-decoration: none;
+    color: #F8E2AA;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.Sequel-left-text a:hover{
+    border: 1px solid #F8E2AA;
+    background-color:white;
+	color: black
+}
+
+#Bulusan-lake{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Picture1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+#Cabid-An{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Picture2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+#Irosin{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../Pictures/Picture3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.Sequel-right{
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    transform: translateY(-10.5%);
+}
+
+.Sequel-right img{
+    position: relative;
+    }
+
+.Sequel-right-text{
+    padding-top: 6%;
+}
+
+.Sequel-right-text a{
+    text-decoration: none;
+    color:#F8E2AA;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.Sequel-right-text a:hover{
+    border: 1px solid #ffd05a;
+    background-color:white;
+	color: black
+}
+
+
+
+
+
+
